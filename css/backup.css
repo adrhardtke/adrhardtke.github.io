@@ -1,0 +1,103 @@
+.card {
+    background-color: #D62323;
+    border-radius: 8px;
+    height: 20em;
+    /* flex:1; */
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.card span {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card p {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* #card {
+	position: relative;
+}
+
+#card p, #back-card p {
+	color:white;
+	font-size: 1.5em;
+	display: block;
+	font-family: sans-serif;
+	position: absolute;
+	top: 15px;
+	left: 11px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+} */
+
+/* O container geral define a perspectiva	 */
+.flip-container {
+	-moz-perspective: 1000;
+	perspective: 1000;
+}
+
+/* vira os containers frente e verso quando o mouse passa em cima */
+/* .flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}     */
+
+.flip-container, .front, .back {
+  width: 100%;
+  /* height: 256px; */
+}
+
+/* define a velocidade da transição */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* esconde o verso durante a animação */
+/* .front, .back {
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+  	position: absolute;
+  	top: 0;
+ 	left: 0;
+} */
+
+/* frente posicionada sobre o verso */
+/* .front { z-index: 0;  }  /* aqui se altera o z-index se der problema */
+
+/* verso inicialmente escondido */
+/* .back { transform: rotateY(180deg); } */
+/*
+.flip-container:hover .flipper,
+.flip-container.hover .flipper,
+.flip-container.flip .flipper {
+  transform: rotateY(180deg);
+} */
+
+/* .back .card {
+    background-color: #40DC55;
+}
+
+.flip {
+	transform: rotateY(180deg);
+} */

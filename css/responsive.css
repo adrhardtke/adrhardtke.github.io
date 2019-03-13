@@ -1,0 +1,106 @@
+@media only screen and (max-width: 867px) {
+    .projetos ul {
+
+    }
+
+    .projetos ul li{
+        flex-basis: 200px;
+        min-width: 230px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 370px) {
+
+    .banner img {
+        display: none;
+    }
+
+    .banner h1, .banner p {
+        width: 100%;
+    }
+
+    .header h1 {
+        line-height: 1;
+        text-align: center;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .header nav ul {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .header nav ul li {
+        /* margin-right: 20px; */
+        /* width: 50%; */
+        margin:0px 10px;
+        display: inline-block;
+    }
+
+    .about-box {
+        display: block;
+
+    }
+
+    .about-box .img-about img {
+        display: block;
+        margin: 0 auto;
+        width: 110px;
+    }
+
+    .about-box .img-about img:hover {
+        transform: scale(1);
+    }
+
+    .text-about {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .nuvem {
+        height: 10vh;
+    }
+
+    .call-to-action {
+        text-align: center;
+    }
+
+    .projetos ul li {
+        max-height: 220px;
+        margin: 10px 0;
+    }
+
+    .card {
+        height: 50%;
+    }
+
+    .card .side {
+        height: 100%;
+    }
+
+    .curso-selecionado p:last-child {
+        font-size: 1.5rem;
+    }
+
+    .progress {
+        display: block;
+        width: 100%;
+    }
+
+    .curso-nome {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .banner h1 {
+        font-size: 3.5em;
+    }
+}
