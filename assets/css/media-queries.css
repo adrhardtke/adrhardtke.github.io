@@ -32,6 +32,26 @@
     }
 }
 
+@media (max-width:770px ){
+   .about-me {
+      grid-template-columns: 1fr;
+   }
+
+   .about-me div:first-child {
+      order: 2;
+   }
+
+   .about-me div:last-child {
+      order: -1;
+      margin: 2em auto;
+   }
+
+   .about-me-picture {
+      width: 128px;
+      height: 128px;
+   }
+}
+
 /*mobile*/
 @media (max-width:690px ){
     .home {
@@ -111,7 +131,7 @@
         text-align: center;
         padding: .8em 0;
         width: 100%;
-        margin-top: 1em;        
+        margin-top: 1em;
         background-color: var(--segunda-cor);
         color:#fff;
         font-style: italic;
