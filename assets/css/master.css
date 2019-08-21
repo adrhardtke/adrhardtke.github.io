@@ -164,7 +164,7 @@ header nav ul li {
 
 .social-icons {
    text-align: center;
-   margin-top: 1em;
+   margin-top: .2em;
 }
 
 .social-icons a {
@@ -232,6 +232,7 @@ header nav ul li {
 
 .about-me-text p.follow-me {
    font-weight: bold;
+   margin-bottom: 0;
 }
 
 .about-me-text .social-icons {

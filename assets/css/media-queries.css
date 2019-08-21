@@ -44,6 +44,7 @@
    .about-me div:last-child {
       order: -1;
       margin: 2em auto;
+      margin-top: 1em;
    }
 
    .about-me-picture {
