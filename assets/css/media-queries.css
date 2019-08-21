@@ -111,8 +111,7 @@
         text-align: center;
         padding: .8em 0;
         width: 100%;
-        position: absolute;
-        bottom: 0;
+        margin-top: 1em;        
         background-color: var(--segunda-cor);
         color:#fff;
         font-style: italic;
