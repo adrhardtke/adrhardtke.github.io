@@ -116,6 +116,9 @@
         background-color: var(--segunda-cor);
         color:#fff;
         font-style: italic;
-
     }
+
+    .mobile-red-clip-path p {
+      margin:0;
+   }
 }
