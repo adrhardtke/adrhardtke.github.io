@@ -102,4 +102,9 @@
     .text-red-clip-path p {
         display: none;
     }
+
+    .mobile-red-clip-path {
+        display: block;
+        background-color: var(--segunda-cor);
+    }
 }

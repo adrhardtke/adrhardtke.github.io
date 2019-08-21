@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Pecita';
-    src: 
+    src:
         url('../fonts/pecita.otf') format('opentype'),
         url('../fonts/pecita.woff2') format('woff2'),
         url('../fonts/pecita.woff') format('woff');
@@ -35,6 +35,22 @@ body {
 .space-between {
     justify-content: space-between;
 }
+
+h1 {
+   font-weight: lighter;
+}
+
+p {
+    font-size: 1.125em; /*18px*/
+    line-height: 1.625em; /*26px*/
+}
+
+span {
+    color: var(--segunda-cor);
+    font-weight: normal;
+}
+
+
 
 a, a:hover {
     color:var(--primeira-cor);
@@ -85,6 +101,10 @@ a, a:hover {
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
+.mobile-red-clip-path {
+    display: none;
+}
+
 
 /*************
     HEADER
@@ -122,7 +142,7 @@ header nav ul li {
 }
 
 .hello {
-    
+
 }
 
 .picture {
@@ -148,7 +168,7 @@ header nav ul li {
 }
 
 .social-icons a {
-    padding: 0 .3em;      
+    padding: 0 .3em;
 }
 
 .social-icons a:hover{
@@ -158,14 +178,14 @@ header nav ul li {
 .social-icons a i {
     transition: all .2s linear;
     padding: .3em;
-    color:#fff; 
+    color:#fff;
     background-color: var(--segunda-cor);
     border-radius: 100%;
 }
 
 .social-icons a:hover i {
-    background-color:#fff; 
-    color: var(--segunda-cor);  
+    background-color:#fff;
+    color: var(--segunda-cor);
 }
 
 .hello-text {
@@ -176,17 +196,6 @@ header nav ul li {
 
 .hello h1 {
     font-size: 2.25em; /*36px*/
-    font-weight: lighter;
-}
-
-.hello p {
-    font-size: 1.125em; /*18px*/
-    line-height: 1.625em; /*26px*/
-}
-
-.hello span {
-    color: var(--segunda-cor);
-    font-weight: normal;
 }
 
 .btn i {
@@ -195,3 +204,40 @@ header nav ul li {
 
 
 
+/*************
+  ABOUT ME
+*************/
+
+
+.about-me {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items:center;
+   justify-content: center;
+}
+
+.about-me ul li {
+   display: inline-block;
+   opacity: .7;
+   background-color:#ccc;
+   padding: .2em 1em;
+   border-radius: 20px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+   margin: .2em auto;
+}
+
+.about-me-picture {
+   margin-left: 5em;
+}
+
+.about-me-text p.follow-me {
+   font-weight: bold;
+}
+
+.about-me-text .social-icons {
+   text-align: left;
+}
+
+.about-me-text .social-icons i {
+   background-color: var(--primeira-cor);
+}
