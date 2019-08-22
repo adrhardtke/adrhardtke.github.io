@@ -362,3 +362,56 @@ Projetos
    justify-content: space-between;
    flex-wrap: wrap;
 }
+
+/**************
+   Contato
+***************/
+
+.contato-box,
+.social-box {
+   border: 1px solid rgba(0, 0, 0, 0.15);
+   border-radius: 8px;
+   position: relative;
+   padding: 25px;
+   width: 400px;
+   margin: 35px 0;
+}
+
+.contato-box .titulo-sessao,
+.social-box .titulo-sessao {
+   position: absolute;
+   top: -1em;
+   left:2em;
+   background: #fff;
+   padding: 0 .5em;
+}
+
+.contato-box p span {
+   display: block;
+}
+
+.social-box {
+   width: 100%;
+}
+
+.social-info {
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   flex-wrap: wrap;
+}
+
+.social-info p {
+   margin:0;
+}
+
+.social-info span {
+   display: block;
+}
+
+.social-info span a {
+   color:var(--segunda-cor);
+}
+
+.facebook, .instagram, .github, .dribbble {
+   margin-bottom: 25px;
+}

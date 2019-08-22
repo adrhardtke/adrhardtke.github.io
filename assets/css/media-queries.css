@@ -55,6 +55,10 @@
    .projetos-futuros .projetos {
       justify-content: center;
    }
+
+   .social-info {
+      grid-template-columns: repeat(1,1fr);
+   }
 }
 
 /*mobile*/
@@ -106,6 +110,10 @@
         display: block;
         text-align: center;
     }
+
+    .contato-box {
+      width: 100%;
+   }
 }
 
 @media (max-width:410px){
