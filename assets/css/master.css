@@ -1,39 +1,67 @@
 :root {
-    --primeira-cor:#333;
-    --segunda-cor:#CA2730;
- }
+   --primeira-cor:#333;
+   --segunda-cor:#CA2730;
+}
+
+/**COLORS**/
+
+.my-red {
+   color:#DC7D82;
+}
+
+div.my-red {
+   background-color: #DC7D82;
+}
+
+.my-green {
+   color:#47B566;
+}
+
+div.my-green {
+   background-color:#47B566;
+}
+
+.my-orange {
+   color:#F0A45E;
+}
+
+div.my-orange {
+   background-color:#F0A45E;
+}
+
+/**********/
 
 @font-face {
-    font-family: 'Pecita';
-    src:
-        url('../fonts/pecita.otf') format('opentype'),
-        url('../fonts/pecita.woff2') format('woff2'),
-        url('../fonts/pecita.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+   font-family: 'Pecita';
+   src:
+   url('../fonts/pecita.otf') format('opentype'),
+   url('../fonts/pecita.woff2') format('woff2'),
+   url('../fonts/pecita.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
-    color:var(--primeira-cor);
+   font-family: 'Work Sans', sans-serif;
+   color:var(--primeira-cor);
 }
 
 /**************
-    DEFAULTS
+DEFAULTS
 ***************/
 
 .flex-content {
-    display: flex;
+   display: flex;
 }
 
 .space-between {
-    justify-content: space-between;
+   justify-content: space-between;
 }
 
 h1 {
@@ -41,104 +69,104 @@ h1 {
 }
 
 p {
-    font-size: 1.125em; /*18px*/
-    line-height: 1.625em; /*26px*/
+   font-size: 1.125em; /*18px*/
+   line-height: 1.625em; /*26px*/
 }
 
 span {
-    color: var(--segunda-cor);
-    font-weight: normal;
+   color: var(--segunda-cor);
+   font-weight: normal;
 }
 
 
 
 a, a:hover {
-    color:var(--primeira-cor);
+   color:var(--primeira-cor);
 }
 
 .line {
-    width: 100%;
-    height: 1px;
-    background-color: #E9E9E9;
-    margin: 30px auto;
-    margin-top: 10px;
+   width: 100%;
+   height: 1px;
+   background-color: #E9E9E9;
+   margin: 30px auto;
+   margin-top: 10px;
 }
 
 .btn {
-    background-color: var(--primeira-cor);
-    padding: 14px 16px;
-    border-radius: 2px;
-    color:#fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    transition: color .2s, background .2s linear;
+   background-color: var(--primeira-cor);
+   padding: 14px 16px;
+   border-radius: 2px;
+   color:#fff;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+   transition: color .2s, background .2s linear;
 }
 
 .btn:hover {
-    color:var(--primeira-cor);
-    background-color:rgba(0, 0, 0, 0.2);
+   color:var(--primeira-cor);
+   background-color:rgba(0, 0, 0, 0.2);
 }
 
 .red-clip-path {
-    background-color: var(--segunda-cor);
-    width: 100%;
-    height: calc(100vh - 25px);
-    position: absolute;
-    -webkit-clip-path: polygon(100% 25%, 25% 100%, 100% 100%);
-    clip-path: polygon(100% 25%, 25% 100%, 100% 100%);
+   background-color: var(--segunda-cor);
+   width: 100%;
+   height: calc(100vh - 25px);
+   position: absolute;
+   -webkit-clip-path: polygon(100% 25%, 25% 100%, 100% 100%);
+   clip-path: polygon(100% 25%, 25% 100%, 100% 100%);
 }
 
 
 .text-red-clip-path p {
-    position: absolute;
-    color:#fff;
-    bottom: .2em;
-    right: .4em;
-    font-size: 7em;
-    line-height: 1em;
-    text-align: right;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+   position: absolute;
+   color:#fff;
+   bottom: .2em;
+   right: .4em;
+   font-size: 7em;
+   line-height: 1em;
+   text-align: right;
+   color: #FFFFFF;
+   font-weight: bold;
+   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mobile-red-clip-path {
-    display: none;
+   display: none;
 }
 
 
 /*************
-    HEADER
+HEADER
 *************/
 h1.logo-text {
-    font-family: 'Pecita';
-    font-weight: normal;
-    font-size: 1.5em; /*24px*/
+   font-family: 'Pecita';
+   font-weight: normal;
+   font-size: 1.5em; /*24px*/
 }
 
 h1.logo-text a {
-    transition: color .2s linear;
+   transition: color .2s linear;
 }
 
 h1.logo-text a:hover {
-    text-decoration: none;
-    color:var(--segunda-cor);
+   text-decoration: none;
+   color:var(--segunda-cor);
 }
 
 header {
-    margin-top: 25px;
+   margin-top: 25px;
 }
 
 header nav ul li {
-    display: inline-block;
-    padding: 0 0 0 20px;
+   display: inline-block;
+   padding: 0 0 0 20px;
 }
 
 
 /*************
-    HELLO
+HELLO
 *************/
 .home {
-    margin-top: 10em;
+   margin-top: 10em;
 }
 
 .hello {
@@ -146,20 +174,20 @@ header nav ul li {
 }
 
 .picture {
-    position: relative;
-    width: 256px;
+   position: relative;
+   width: 256px;
 }
 
 .profile-photo {
-    border-radius: 100%;
-    background-image: url('../img/profile-picture.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 256px;
-    height: 256px;
-    position: relative;
-    box-shadow: 0 6px 0 var(--segunda-cor);
+   border-radius: 100%;
+   background-image: url('../img/profile-picture.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 256px;
+   height: 256px;
+   position: relative;
+   box-shadow: 0 6px 0 var(--segunda-cor);
 }
 
 .social-icons {
@@ -168,44 +196,44 @@ header nav ul li {
 }
 
 .social-icons a {
-    padding: 0 .3em;
+   padding: 0 .3em;
 }
 
 .social-icons a:hover{
-    text-decoration: none;
+   text-decoration: none;
 }
 
 .social-icons a i {
-    transition: all .2s linear;
-    padding: .3em;
-    color:#fff;
-    background-color: var(--segunda-cor);
-    border-radius: 100%;
+   transition: all .2s linear;
+   padding: .3em;
+   color:#fff;
+   background-color: var(--segunda-cor);
+   border-radius: 100%;
 }
 
 .social-icons a:hover i {
-    background-color:#fff;
-    color: var(--segunda-cor);
+   background-color:#fff;
+   color: var(--segunda-cor);
 }
 
 .hello-text {
-    margin-top: 1em;
-    margin-left: 3em;
-    width: 60%;
+   margin-top: 1em;
+   margin-left: 3em;
+   width: 60%;
 }
 
 .hello h1 {
-    font-size: 2.25em; /*36px*/
+   font-size: 2.25em; /*36px*/
 }
 
 .btn i {
-    margin-left: .5em;
+   margin-left: .5em;
 }
 
 
 
 /*************
-  ABOUT ME
+ABOUT ME
 *************/
 
 
@@ -241,4 +269,94 @@ header nav ul li {
 
 .about-me-text .social-icons i {
    background-color: var(--primeira-cor);
+}
+
+
+/*************
+Projetos
+*************/
+
+.projetos-realizados .projetos {
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.projetos-realizados .card-projeto {
+   background-image: linear-gradient(135deg, #645395 50%, #5C4A8F 50%); /*645395*/
+   width: 16em;
+   height: 260px;
+   color:#fff;
+   padding: 25px 5px 0 25px;
+   border-radius: 2px;
+   transition: border-radius .1s ease-in;
+   margin: .5em .5em;
+   transition: transform .4s, box-shadow .4s linear;
+}
+
+.projetos-realizados .card-projeto:nth-child(even) {
+   border-radius: 2px 2px 50px 2px;
+}
+
+.projetos-realizados .card-projeto a {
+   color:#E5E5E5;
+   text-decoration: underline;
+}
+
+.projetos-realizados .card-projeto a i {
+   margin-right: .5em;
+}
+
+.projetos-realizados .card-projeto:hover {
+   box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.16);
+   transform: scale(1.05);
+}
+
+.projetos-futuros .titulo-sessao {
+   margin:3em 0;
+}
+
+.projetos-futuros .card-projeto {
+   border-radius: 2px;
+   background: #FFFFFF;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+   width: 18em;
+   padding: 25px 25px;
+   height: 320px;
+   text-align: center;
+   position: relative;
+   margin-bottom: 2em;
+}
+
+.projetos-futuros .card-projeto h2 {
+   /* height: 3em; */
+}
+
+.projetos-futuros .card-projeto p {
+
+   color:#5E5E5E;
+}
+
+.projetos-futuros .card-projeto a {
+   text-decoration: underline;
+   font-weight: bold;
+   position: absolute;
+   width: 100%;
+   left: 0;
+   text-align: center;
+   bottom: 5px;
+}
+
+.projetos-futuros .barra-lateral {
+   width: 3px;
+   height: 140px;
+   position: absolute;
+   top:25%;
+   left:-10px;
+}
+
+.projetos-futuros .projetos {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }

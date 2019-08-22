@@ -51,6 +51,10 @@
       width: 128px;
       height: 128px;
    }
+
+   .projetos-futuros .projetos {
+      justify-content: center;
+   }
 }
 
 /*mobile*/
