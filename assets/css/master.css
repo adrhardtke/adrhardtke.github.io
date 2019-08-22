@@ -285,9 +285,9 @@ Projetos
 }
 
 .projetos-realizados .card-projeto {
-   background-image: linear-gradient(135deg, #645395 50%, #5C4A8F 50%); /*645395*/
+   background-image: linear-gradient(126deg, #645395 50%, #5C4A8F 50%); /*645395*/
    width: 16em;
-   height: 260px;
+   height: 350px;
    color:#fff;
    padding: 25px 5px 0 25px;
    border-radius: 2px;
@@ -296,9 +296,9 @@ Projetos
    transition: transform .4s, box-shadow .4s linear;
 }
 
-.projetos-realizados .card-projeto:nth-child(even) {
+/* .projetos-realizados .card-projeto:nth-child(even) {
    border-radius: 2px 2px 50px 2px;
-}
+} */
 
 .projetos-realizados .card-projeto a {
    color:#E5E5E5;
