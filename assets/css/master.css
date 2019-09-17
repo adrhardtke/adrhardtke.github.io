@@ -29,6 +29,7 @@ div.my-orange {
    background-color:#F0A45E;
 }
 
+
 /**********/
 
 @font-face {
@@ -132,6 +133,13 @@ a, a:hover {
 
 .mobile-red-clip-path {
    display: none;
+}
+
+.align-right {
+   text-align: right;
+   position: absolute;
+   right: 1em;
+   font-style: italic;
 }
 
 
@@ -415,4 +423,76 @@ Projetos
 
 .facebook, .instagram, .github, .dribbble {
    margin-bottom: 25px;
+}
+
+/* LISTA ITENS */
+.about-me ul.normal-list li {
+   opacity: 1;
+   color:#fff;
+   display: block;
+   position: relative;
+}
+
+.normal-list span {
+   color:rgba(0,0,0,.4);
+}
+
+ul li.red-item {
+   background-color:#DC7D82;
+}
+
+ul li.green-item {
+   background-color:#47B566;
+}
+
+ul li.orange-item {
+   background-color:#F0A45E;
+}
+
+
+/* legenda */
+
+.legenda {
+   border:1px solid rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   padding: 1em;
+   margin-bottom: 2em;
+}
+
+div.legenda p {
+   margin-bottom: 0;
+   font-size: .9rem;
+   font-style: italic;
+}
+
+div.legenda p:first-child {
+   color: rgba(0, 0, 0, 0.5);
+   font-style: normal;
+}
+
+/* Update */
+
+div.update {
+   background-color: rgba(0, 0, 0, 0.1);
+   border-radius: 3px;
+   border:0.5px solid rgba(0, 0, 0, 0.1);
+   padding: 1em;
+   margin-bottom: 2em;
+}
+
+div.update p {
+   font-size: .8rem;
+}
+
+.update-data::after {
+   content: '-';
+   margin-left: 1em;
+   font-weight: normal;
+}
+
+.update-data {
+   color:rgba(0, 0, 0, 0.5);
+   margin-right: 1em;
+   font-style: italic;
+   font-weight: bold;
 }
