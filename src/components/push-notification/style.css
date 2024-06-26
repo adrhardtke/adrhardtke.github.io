@@ -1,0 +1,32 @@
+#notification {
+    display: none;
+}
+
+#notification.enabled {
+    display: block;
+    animation: up-to-down 1s;
+}
+
+#notification.disabled {
+    animation: down-to-up 1s;
+}
+
+@keyframes up-to-down {
+    0% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes down-to-up {
+    0% {
+        transform: translateY(0px);
+        opacity: 100;
+    }
+    100% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+}
